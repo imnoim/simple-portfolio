@@ -14,8 +14,17 @@
 .text-primary {
     color: #FD6E0A;
 }
+.dark-1 {
+    color: #181818;
+}
 .dark-2 {
     color: #474747;
+}
+.dark-3 {
+    color: #757575;
+}
+.bg-color {
+    background-color: #FFF8F3;
 }
 .btn-primary {
     background-color: #FD6E0A;
@@ -25,6 +34,36 @@
     border: none;
     padding: 18px 35px;
     border-radius: 5px;
+}
+.btn-secondary {
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #FD6E0A;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+.section-description {
+    font-size: 18px;
+    color: #757575;
+}
+.text-center {
+    text-align: center;
+}
+
+/* header */
+
+.header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 
 /* Nav Styles */
@@ -53,4 +92,90 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-size: 20px;
+}
+
+/* banner styles */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 38px 0px 200px;
+}
+.banner-content {
+    max-width: 585px;
+}
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-description {
+    font-size: 18px;
+    margin: 20px 0px;
+}
+.download-button {
+    margin-right: 15px;
+}
+.banner-img {
+    width: 580px;
+}
+
+/* main styles */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* about section styles */
+
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 5px 5px;
+    background-color: #fff;
+}
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+.item-description {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* skills section styles */
+
+.skills .section-description {
+    margin: 20px 0px;
+}
+
+.skills-container {
+    display: flex;
+    margin-top: 50px;
+    gap: 24px;
+}
+.skill {
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skill-title {
+    margin: 20px 0px;
 }
