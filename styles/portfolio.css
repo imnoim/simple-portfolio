@@ -179,3 +179,42 @@ main section {
 .skill-title {
     margin: 20px 0px;
 }
+
+/* resume section styles */
+
+.resume .section-title {
+    margin-bottom: 110px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.experience {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.experience-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-top: 10px;
+}
+.experience-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.experience-description {
+    font-size: 16px;
+    color: #757575;
+}
+.resume button {
+    margin-top: 50px;
+}
